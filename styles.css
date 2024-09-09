@@ -1,0 +1,60 @@
+.container {
+    position: relative;
+    margin: 400px;
+}
+
+.cuadradonaranjo {
+    width: 400px;
+    height: 400px;
+    background: #de9230;
+}
+
+.cuadradorojo {
+    width: 400px;
+    height: 400px;
+    background: #f80303;
+    position: absolute;
+    left: 0px;
+    top: -300px;
+    z-index: 40; /* Cambia z-index para que quede por debajo del cuadrado verde */
+}
+
+.cuadradorojosobrepuesto {
+    width: 100px;
+    height: 100px;
+    background: #f80303;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 50; /* Cambia z-index para que quede por debajo del cuadrado verde */
+}
+
+.cuadradoazul {
+    width: 400px;
+    height: 400px;
+    background: #1a02f0;
+    position: absolute;
+    left: 0px;
+    top: 300px;
+    z-index: 47;
+}
+
+.cuadradoverde {
+    width: 400px;
+    height: 400px;
+    background: #3b900a;
+    position: absolute;
+    left: 300px;
+    top: 0px;
+    z-index: 45; /* Aumenta el z-index para que quede encima del cuadrado rojo */
+}
+
+.cuadradoamarillo {
+    width: 400px;
+    height: 400px;
+    background: #fce703;
+    position: absolute;
+    left: -300px;
+    top: 0px;
+    z-index: 48;
+}
